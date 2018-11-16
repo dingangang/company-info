@@ -1,0 +1,51 @@
+/*
+* 调整一些固定样式
+*/
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+a.nav-link {
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.nav-search-form {
+  input {
+    width: 70%;
+    margin-right: 0.5rem;
+  }
+}
+
+.production-list {
+  padding-left: 0;
+
+  li {
+    list-style: none;
+    line-height: 1.8rem;
+    background-color: rgba(238, 238, 238, 0.8);
+    text-align: left;
+    padding: 0.5rem;
+    margin: 1rem 0;
+  }
+}
+
+.weixin-mock {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(70, 70, 70, 0.8);
+
+  p {
+    color: #fff;
+    font-size: 1.4rem;
+  }
+
+  img {
+    margin-right: -20%;
+  }
+}
